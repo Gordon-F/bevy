@@ -43,6 +43,8 @@ impl Plugin for ImagePlugin {
     }
 }
 
+pub const DEFAULT_DEPTH_FORMAT: wgpu::TextureFormat = wgpu::TextureFormat::Depth32Float;
+
 pub trait BevyDefault {
     fn bevy_default() -> Self;
 }
