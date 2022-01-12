@@ -276,7 +276,8 @@ When using `NDK (Side by side)`, the environment variable `ANDROID_NDK_ROOT` mus
 To run on a device setup for Android development, run:
 
 ```sh
-cargo apk run --example android
+cd examples/android
+cargo apk run
 ```
 
 :warning: At this time Bevy does not work in Android Emulator.
